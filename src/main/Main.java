@@ -6,6 +6,10 @@ public class Main {
     private static FizzBuzzSolution solution;
     public static void main(String[] args) {
         solution = new FizzBuzzSolution();
-        solution.fizzBuzz(100);
+
+        for (int i = 1; i <= 100; ++i) {
+            solution.fizzBuzz(i);
+        }
+
     }
 }
